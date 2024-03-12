@@ -1,0 +1,17 @@
+.span {
+  font-size: 28px;
+}
+
+.tip {
+  /* background-color: blueviolet; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.price {
+  font-size: 30px;
+}

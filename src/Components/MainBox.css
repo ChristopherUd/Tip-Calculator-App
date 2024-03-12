@@ -1,0 +1,76 @@
+.mainbox {
+  width: 60%;
+  height: 50%;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 25px;
+  display: flex;
+  padding: 25px;
+}
+.bill {
+  /* background-color: greenyellow; */
+  width: 50%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.breakdown {
+  background-color: hsl(183, 100%, 15%);
+  width: 50%;
+  height: 100%;
+  border-radius: 25px;
+  font-family: Space Mono;
+}
+
+.btn {
+  width: 50%;
+  height: 50px;
+  position: relative;
+  left: 150px;
+  top: 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+.bill-div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  font-family: Space Mono;
+  padding: 25px;
+  /* background-color: black; */
+  border-radius: 25px;
+}
+
+.bill-input {
+  width: 60%;
+  height: 30px;
+  margin-top: 7px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px;
+  color: hsl(183, 100%, 15%);
+  text-align: right;
+}
+
+.tip-div {
+  font-family: Space Mono;
+  padding: 25px;
+}
+
+.all-tip {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.people-div {
+  font-family: Space Mono;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.placeholder {
+  color: hsl(186, 14%, 43%);
+}
